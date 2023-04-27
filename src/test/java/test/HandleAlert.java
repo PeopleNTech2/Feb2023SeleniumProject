@@ -1,6 +1,5 @@
 package test;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 

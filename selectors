@@ -1,0 +1,19 @@
+CSS Selectors:
+tag[attribute='value']
+#id
+.class.name
+tag[*attribute='val']
+tag[attribute='value'] tag:nth-child(index) tag:nth-child(index) tag:nth-child(index) tag:nth-child(index)
+
+Xpath:
+//tag[@attribute='value']
+//tag[contains(@attribute,'val')]
+//tag[text()='value']
+//tag[contains(text(),'val')]
+//tag[@attribute='value']/tag[index]/tag[index]/tag[index]/tag[index] --> parent-child relationship
+//tag[@attribute='value']/parent::tag/parent::tag/parent::tag/parent::tag --> child-parent relationship
+//tag[@attribute='value']/../../../.. --> child-parent relationship
+//tag[@attribute='value']/following-sibling::tag
+//tag[@attribute='value']/preceding-sibling::tag
+
+/html/body/tag[index]/tag[index]/tag[index]/tag[index]/tag[index]/tag[index]/tag[index]/tag[index]
