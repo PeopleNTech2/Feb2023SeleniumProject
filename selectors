@@ -1,3 +1,11 @@
+Selectors or locators:
+id
+name
+className
+tagName
+link text
+partial link text
+
 CSS Selectors:
 tag[attribute='value']
 #id
